@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ラブ ゲーム</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+
+    <string name="welcome_1">ラブゲームにようこそ</string>
+    <string name="welcome_2">ラブゲームは36の質問で誰かと恋に落ちるように導くかもしれないシンプルなアプリです。 \n\nこれらの質問はアーサーアロン博士の研究に基づくもので、このアプリはニューヨーク·タイムズ紙の最近の記事にインスピレーションを受けています。 画面を長押しすると記事にリダイレクトします。それ以外の場合は左にスワイプして、旅を始めましょう。</string>
+    <string name="welcome_3">タイマースタート</string>
+
+    <string name="question_0">セット I</string>
+    <string name="question_1">1. 夕食のゲストとして世界中で誰を選びたいですか?</string>
+    <string name="question_2">2. あなたは有名になりたいですか? どんな方法で?</string>
+    <string name="question_3">3. 電話をかける前に、今まで言おうとしていることを練習したことがありますか? どうして?</string>
+    <string name="question_4">4. あなたにとって “完璧” な日を構成するものは何ですか?</string>
+    <string name="question_5">5. 最後に一人で歌ったのはいつですか? 他の誰かに?</string>
+    <string name="question_6">6. もしあなたが90歳まで生きることができて、人生の最後の60年間、30歳の心や体を保持することができたら、あなたは何を望みますか?</string>
+    <string name="question_7">7. あなたがどのように死ぬか、何か予感がありますか?</string>
+    <string name="question_8">8. あなたとあなたのパートナーが共通していると思う三つの名前を挙げてください.</string>
+    <string name="question_9">9. あなたが人生の中で最も感謝しているものは何ですか?</string>
+    <string name="question_10">10. あなたが育った人生で、何でも変えられたとしたら、それは何ですか?</string>
+    <string name="question_11">11. 4分間で、可能な限り詳細にパートナーにあなたの人生のストーリー物語を伝えてください.</string>
+    <string name="question_12">12. 明日目覚めたときに、あなたが何かの資質や能力を獲得することができたとしたら、それは何ですか?</string>
+    <string name="question_13">セット II</string>
+    <string name="question_14">13. もし水晶玉があなた自身、あなたの人生、将来、または何か他のものについての真実を伝えることができるとしたら、あなたは何を知りたいですか?</string>
+    <string name="question_15">14. あなたが長い間やってみたいと夢見ていたものはありますか? どうしてそれをしていないのですか?</string>
+    <string name="question_16">15. あなたの人生の最大の成果は何ですか?</string>
+    <string name="question_17">16. あなたは友情で何を最も大切にしますか?</string>
+    <string name="question_18">17. あなたの最も貴重な記憶は何ですか?</string>
+    <string name="question_19">18. あなたの最もひどい記憶は何ですか?</string>
+    <string name="question_20">19. あなたが一年以内に突然死ぬことを知ったとしたら、 あなたが今生きている人生について何か変えますか? どうして?</string>
+    <string name="question_21">20. あなたにとって友情とは何を意味しますか?</string>
+    <string name="question_22">21. あなたの人生の中で愛と愛情は何の役割がありますか?</string>
+    <string name="question_23">22. あなたのパートナーのポジティブな特性を考慮したものを何かお互に共有しましょう. 全部で5つのアイテムを共有しましょう.</string>
+    <string name="question_24">23. あなたの家族はどれくらい親密で暖かいですか? あなたの子供時代は他の多くの人より幸せだったとを感じますか?</string>
+    <string name="question_25">24. あなたのお母さんとの関係についてあなたはどう思いますか?</string>
+    <string name="question_26">セット III</string>
+    <string name="question_27">25. それぞれ3つ本当の “私たち” の文を作りましょう. 例えば, “私たちは二人ともこの部屋にいて ... と感じる“</string>
+    <string name="question_28">26. この文を完成させてください: “私に ... を共有できる誰かがいればよかったのに“</string>
+    <string name="question_29">27. あなたがパートナーと親友になろうとしていた場合、 彼または彼女に対して知ってほしい重要であろうことを共有してください.</string>
+    <string name="question_30">28. パートナーについてあなたが好きなところを伝えましょう。会ったばかりの人には言わないであろうことを話して、今回はとても正直になりましょう.</string>
+    <string name="question_31">29. あなたの人生の中で恥ずかしい瞬間をパートナーと共有しましょう.</string>
+    <string name="question_32">30. 最後に他の人の前で泣いたのはいつですか? 一人で?</string>
+    <string name="question_33">31. あなたがパートナーについて既に好きなところを伝えましょう.</string>
+    <string name="question_34">32. 冗談に済ませるにはあまりにも深刻なことは、しいて言えば何ですか?</string>
+    <string name="question_35">33. あなたが誰とも話をする機会がなく今晩死ぬとしたら、誰かに言わなかったをことを最も悔やむことは何ですか? どうしてあなたはまだ言っていないのですか?</string>
+    <string name="question_36">34. あなたの家が、あなたが所有するものすべてを含めて、火災になりました. あなたの愛する人やペットを助けた後に、最後に駆け込んで安全に何かのアイテムを救う時間があります. それは何ですか? どうして?</string>
+    <string name="question_37">35. 家族全員の中で、誰の死が最も不安だと思いますか? どうして?</string>
+    <string name="question_38">36. 個人的な問題を共有して、彼または彼女がそれを処理するであろう方法についてパートナーに助言を求めましょう. また、あなたが選択した問題についてどのように感じているかも、パートナーに感想を聞きましょう.</string>
+    <string name="question_39">完了しましたか? 4分間静かにあなたのパートナーの目を見ましょう</string>
+
+    <string name="minutes">分</string>
+    <string name="seconds">秒</string>
+    <string name="time_up">終了</string>
+</resources>

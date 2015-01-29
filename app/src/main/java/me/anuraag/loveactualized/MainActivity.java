@@ -122,7 +122,7 @@ public class MainActivity extends FragmentActivity {
             myb.setOnClickListener( new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    CountDownTimer mytimer = new CountDownTimer(240000,1000) {
+                    CountDownTimer mytimer = new CountDownTimer(24000,1000) {
                         @Override
                         public void onTick(long milliseconds) {
                             int seconds = (int) (milliseconds / 1000) % 60 ;
@@ -131,25 +131,30 @@ public class MainActivity extends FragmentActivity {
                             if(seconds < 10){
                                 secs = "0" + secs;
                             }
-                            time.setText(minutes + " minutes " + secs + " seconds");
+//                            time.setText(minutes + " minutes " + secs + " seconds");
+                            time.setText(minutes + " " + getString(R.string.minutes) + " " + secs + " " + getString(R.string.seconds));
                         }
 
                         @Override
                         public void onFinish() {
                             AlertDialog.Builder mydialog = new AlertDialog.Builder(getActivity());
-                            mydialog.setTitle("Time Up");
+//                            mydialog.setTitle("Time Up");
+                            mydialog.setTitle(R.string.time_up);
                             mydialog.setNegativeButton("Ok", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
-
+                                    myb.setVisibility(View.VISIBLE);
+                                    time.setVisibility(View.INVISIBLE);
                                 }
                             });
+                            AlertDialog alertDialog = mydialog.create();
+                            alertDialog.show();
 
                         }
                     };
                     mytimer.start();
                     myb.setVisibility(View.GONE);
-                    time.setVisibility(View.GONE);
+                    time.setVisibility(View.VISIBLE);
                 }
             });
             pageNumber = (TextView)getActivity().findViewById(R.id.textView2);
@@ -169,7 +174,12 @@ public class MainActivity extends FragmentActivity {
 
             }else{
                 tview.setVisibility(View.GONE);
-                mytext.setText(words[getArguments().getInt("position") -1]);
+//                mytext.setText(words[getArguments().getInt("position") -1]);
+                if(getArguments().getInt("position") <= 40) {
+                    mytext.setText(getResources().getIdentifier("question_" + (getArguments().getInt("position") -1), "string", getActivity().getPackageName()));
+                }else{
+                    mytext.setText(null);
+                }
                 int random = (int)(Math.random() * 4 + 1);
                 switch (random){
                     case 1:  mylayout.setBackgroundColor(0xFF2ecc71);
