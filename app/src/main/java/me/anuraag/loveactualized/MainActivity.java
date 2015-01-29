@@ -122,7 +122,7 @@ public class MainActivity extends FragmentActivity {
             myb.setOnClickListener( new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    CountDownTimer mytimer = new CountDownTimer(24000,1000) {
+                    CountDownTimer mytimer = new CountDownTimer(240000,1000) {
                         @Override
                         public void onTick(long milliseconds) {
                             int seconds = (int) (milliseconds / 1000) % 60 ;
